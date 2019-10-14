@@ -16,7 +16,7 @@ impl RF {
     // Read and Write
     fn ReadWrite(&self. RdReg1: BitSet::with_capacity(5), RdReg2: BitSet::with_capacity(5), WrtReg: BitSet::with_capacity(5), WrtData: BitSet::with_capacity(32), WrtEnable: BitSet::with_capacity(1) ) {
         if(WrtEnable[0]) {
-            self.Registers[WrtReg.]
+            // Write WrtData to WrtReg 
         }
     }
 }
